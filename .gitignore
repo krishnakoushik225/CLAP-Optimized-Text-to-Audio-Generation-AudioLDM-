@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+__MACOSX/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Data / models (do not commit)
+data/
+datasets/
+checkpoints/
+models/
+results/
+samples/
+*.pt
+*.ckpt
+*.bin
+*.safetensors
+
+# Logs
+*.log
